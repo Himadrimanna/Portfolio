@@ -2,7 +2,9 @@ import React from 'react'
 
 function testimonials() {
   return (
-	<div>testimonials</div>
+	<section id='testimonials'>
+   Testimonial
+  </section>
   )
 }
 
