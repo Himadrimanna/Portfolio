@@ -13,6 +13,7 @@ import {SiAdobephotoshop} from 'react-icons/si';
 import {SiAdobepremierepro} from 'react-icons/si';
 import {SiAdobeillustrator} from 'react-icons/si';
 import {SiAdobeaftereffects} from 'react-icons/si';
+import{FaJava} from 'react-icons/fa';
 import "./experience.css"
 function experience() {
   return (
@@ -56,7 +57,7 @@ function experience() {
             <div>
             <h4>REACT JS</h4>
             <small className='text-light'>
-              Experienced
+              Intermediate
             </small>
             </div>
             </article>
@@ -65,16 +66,16 @@ function experience() {
             <div>
             <h4>NEXT JS</h4>
             <small className='text-light'>
-              Experienced
+              Intermediate
             </small>
             </div>
             </article>
             <article className="experince_details">
             <RiFlutterFill className='experience_icon'/>
             <div>
-            <h4>NEXT JS</h4>
+            <h4>Flutter</h4>
             <small className='text-light'>
-              Experienced
+            Intermediate
             </small>
             </div>
             </article>
@@ -89,7 +90,7 @@ function experience() {
             <div>
             <h4>MONGODB</h4>
             <small className='text-light'>
-              Experienced
+            Intermediate
             </small>
             </div>
           </article>
@@ -98,7 +99,7 @@ function experience() {
             <div>
             <h4>MYSQL</h4>
             <small className='text-light'>
-              Experienced
+            Beginner
             </small>
             </div>
             </article>
@@ -107,7 +108,7 @@ function experience() {
             <div>
             <h4>NODE JS</h4>
             <small className='text-light'>
-              Experienced
+            Intermediate
             </small>
             </div>
             </article>
@@ -116,7 +117,16 @@ function experience() {
             <div>
             <h4>PYTHON</h4>
             <small className='text-light'>
-              Experienced
+            Intermediate
+            </small>
+            </div>
+            </article>
+            <article className="experince_details">
+            <FaJava className='experience_icon'/>
+            <div>
+            <h4>JAVA</h4>
+            <small className='text-light'>
+            Intermediate
             </small>
             </div>
             </article>

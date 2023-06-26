@@ -4,6 +4,7 @@ import Img2 from '../../assets/portfolio2.png'
 import Img3 from '../../assets/portfolio3.png'
 import Img4 from '../../assets/portfolio4.png'
 import Img5 from '../../assets/portfolio5.png'
+import Img6 from '../../assets/portfolio6.png'
 import './portfolio.css'
 
 function portfolio() {
@@ -58,8 +59,18 @@ function portfolio() {
               <img src={Img5} alt=''/>
             </div>
             <h3>Overview</h3>
-            <p>This app was built using React JS and is hosted on Firebase. This is the official Hackathon website which was created by me and my team fro the VCET HACKATHON 2022. IT describes the schedule, Sponsors, Timeline, Guidelines and a form to be filled to participate in the Hackathon</p>
+            <p>This app was built using React JS and is hosted on Firebase. This is the official Hackathon website which was created by me and my team for the VCET HACKATHON 2022. IT describes the schedule, Sponsors, Timeline, Guidelines and a form to be filled to participate in the Hackathon</p>
             <a href='https://github.com/Himadrimanna/Vcet-Hackathon-2022.git' target="_blank" rel="noreferrer" className='btn btn-primary'>
+              Source Code
+            </a>
+        </article>
+        <article className="portfolio_item">
+            <div className="portfolio_item-image">
+              <img src={Img6} alt=''/>
+            </div>
+            <h3>Overview</h3>
+            <p>This is my Graphic Design Portfolio Where all the design works and video content is made by me during the work as a Technical member or Technical Head in the committee's and organisation in my college. Design such as Instagram Post, Sponsors Post and Banners, Brand Design etc and Video content are done</p>
+            <a href='https://drive.google.com/drive/folders/1Q9JBnMb_dMyqZv6CcedGOm3jGwwJj_Zw?usp=sharing' target="_blank" rel="noreferrer" className='btn btn-primary'>
               Source Code
             </a>
         </article>
